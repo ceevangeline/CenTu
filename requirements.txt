@@ -1,0 +1,18 @@
+streamlit==1.39.0
+
+# Torch CPU
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu
+
+# Core numerics - kompatibel Python 3.13
+numpy>=2.0.0,<2.3
+
+# Data & ML
+pandas>=2.0
+scikit-learn>=1.5.0
+
+# HuggingFace stack
+protobuf>=4.0.0
+safetensors>=0.4.0
+transformers>=4.40.0
+accelerate>=0.30.0
