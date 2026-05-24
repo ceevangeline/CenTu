@@ -1,10 +1,10 @@
 streamlit==1.39.0
 
-# PyTorch CPU - kompatibel Python 3.14
+# PyTorch CPU - versi yang saling kompatibel
 --extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.9.1+cpu
+torch==2.12.0+cpu
 torchvision==0.27.0+cpu
-torchaudio==2.9.1+cpu
+torchaudio==2.12.0+cpu
 
 # Core stack
 numpy>=1.26.4
