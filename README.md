@@ -21,12 +21,12 @@ Gunakan *Manual Book* yang berada pada folder assets untuk mengetahui cara mengg
 Untuk memulai aplikasi, ikuti langkah-langkah berikut:
 
 1. Install seluruh dependency:
-   '''bash
+   ```bash
    pip install -r requirements.txt
-   '''
+   ```
    
 2. Jalankan aplikasi menggunakan Streamlit:
-   '''bash
+   ```bash
    streamlit run streamlit_app.py
-   '''
+   ```
    
