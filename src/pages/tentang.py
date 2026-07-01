@@ -21,12 +21,12 @@ def img_to_base64(path: str) -> str:
     return f"data:{mime};base64,{data}"
 
 # Muat Asset
-logo_centu = img_to_base64("assets/Logo_CenTu.png")
+logo_centu = img_to_base64("assets/Logo_Centu.png")
 logo_untar = img_to_base64("assets/Logo_Untar.png")
-logo_centularge = img_to_base64("assets/Logo_CenTu.png") 
-foto_levina = img_to_base64("assets/Levina.jpg")
-foto_janson = img_to_base64("assets/Janson.jpg")
-foto_irvan = img_to_base64("assets/Irvan.jpg")
+logo_centularge = img_to_base64("assets/Logo_Centu.png") 
+foto_levina = img_to_base64("assets/levina.jpg")
+foto_janson = img_to_base64("assets/janson.jpg")
+foto_irvan = img_to_base64("assets/irvan.jpg")
 
 # ── CSS ──────────────────────────────────────────────────────────────────────
 st.markdown("""
