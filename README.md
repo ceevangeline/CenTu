@@ -8,13 +8,25 @@ app_port: 8501
 tags:
 - streamlit
 pinned: false
-short_description: Aplikasi Pendeteksi Bahasa Melayu Sumatra. Silahkan dicoba
+short_description: Aplikasi Pendeteksi Bahasa Indonesia dan Bahasa Melayu Sumatra. Silahkan dicoba!
 license: unknown
 ---
 
-# Welcome to Streamlit!
+## Panduan Penggunaan Aplikasi
 
-Edit `/src/streamlit_app.py` to customize this app to your heart's desire. :heart:
+### Manual Book
+Gunakan *Manual Book* yang berada pada folder assets untuk mengetahui cara menggunakan aplikasi web.
 
-If you have any questions, checkout our [documentation](https://docs.streamlit.io) and [community
-forums](https://discuss.streamlit.io).
+### Menjalankan Aplikasi
+Untuk memulai aplikasi, ikuti langkah-langkah berikut:
+
+1. Install seluruh dependency:
+   '''bash
+   pip install -r requirements.txt
+   '''
+   
+2. Jalankan aplikasi menggunakan Streamlit:
+   '''bash
+   streamlit run streamlit_app.py
+   '''
+   
