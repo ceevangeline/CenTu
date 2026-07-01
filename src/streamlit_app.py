@@ -19,7 +19,7 @@ def img_to_base64(path: str) -> str:
         data = base64.b64encode(f.read()).decode()
     return f"data:{mime};base64,{data}"
 
-logo_centu = img_to_base64("assets/Logo_CenTu.png")
+logo_centu = img_to_base64("assets/Logo_Centu.png")
 logo_untar = img_to_base64("assets/Logo_Untar.png")
 
 # CSS 
